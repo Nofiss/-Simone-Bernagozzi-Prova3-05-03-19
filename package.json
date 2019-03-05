@@ -1,0 +1,29 @@
+{
+  "name": "prova",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.15",
+    "@fortawesome/free-solid-svg-icons": "^5.7.2",
+    "@fortawesome/react-native-fontawesome": "^0.1.0",
+    "react": "16.6.3",
+    "react-native": "0.58.6",
+    "react-native-fontawesome": "^6.0.1",
+    "react-native-input-validation": "^1.2.2",
+    "react-native-svg": "^9.2.4"
+  },
+  "devDependencies": {
+    "babel-core": "7.0.0-bridge.0",
+    "babel-jest": "24.1.0",
+    "jest": "24.1.0",
+    "metro-react-native-babel-preset": "0.53.0",
+    "react-test-renderer": "16.6.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
